@@ -253,6 +253,26 @@ const items = [
     },
 
     // ==========================
+    // OTROS (creo que era asi machete no me acuerdo)
+    // ==========================
+
+    {
+        categoria: "armas",
+        nombre: "Machete",
+        materiales: {
+            aluminio: 0,
+            cobre: 0,
+            acero: 10,
+            polvora: 0,
+            madera: 5
+        },
+        reputacion: 100,
+        pd: 2,
+        tiempo: "5 min",
+        horas: 100
+    },
+
+    // ==========================
     // MUNICION (GRANDE Y CHICAS)
     // ==========================
 

@@ -25,45 +25,48 @@ const imagenes = {
   // Las subi a IMGURL por que gasta recursos alpedo y es más rápido
 
     // Pistolas
-    "Beretta 96": "https://i.imgur.com/sbp3c8c.png",
-    "Beretta 9": "imgArma/berettam9.png",
-    "M1911": "imgArma/m1911.png",
-    "Magnum 44": "imgArma/magnum44.png",
-    "Magnum 357": "imgArma/magnum357.png",
-    "Desert Eagle": "imgArma/deserteagle.png",
-    "Desert Eagle Dorada": "imgArma/deserteagle_gold.png",
-    "Mauser C96": "imgArma/mauserc96.png",
+    "Beretta 96": "https://i.imgur.com/bvOGOfL.png",
+    "Beretta 9": "https://i.imgur.com/sbp3c8c.png",
+    "M1911": "https://i.imgur.com/kOegrYB.png",
+    "Magnum 44": "https://i.imgur.com/T0iMSIb.png",
+    "Magnum 357": "https://i.imgur.com/Pebj2Fk.png",
+    "Desert Eagle": "https://i.imgur.com/DMFmTZh.png",
+    "Desert Eagle Dorada": "https://i.imgur.com/YiuNbw9.png",
+    "Mauser C96": "https://i.imgur.com/vrxMSgF.png",
 
     // Armas largas
-    "AK-47": "imgArma/ak47.png",
-    "AK-107": "imgArma/ak107.png",
-    "AKM": "imgArma/akm.png",
-    "M16A4": "imgArma/m16a4.png",
-    "Mauser 1909": "imgArma/mauser1909.png",
-    "Thompson 1928": "imgArma/thompson1928.png",
-    "Degtyarev": "imgArma/degtyarev.png",
-    "FMK": "imgArma/fmk3.png",
+    "AK-47": "https://i.imgur.com/CBfPAfy.png",
+    "AK-107": "https://i.imgur.com/ZFyiWNm.png",
+    "AKM": "https://i.imgur.com/ysy6rlc.png",
+    "M16A4": "https://i.imgur.com/RiuJoqp.png",
+    "Mauser 1909": "https://i.imgur.com/5TVIIcY.png",
+    "Thompson 1928": "https://i.imgur.com/FW4OjWH.png",
+    "Degtyarev": "https://i.imgur.com/R5Di4uY.png",
+    "FMK": "https://i.imgur.com/tvK1IRW.png",
 
     // munición grande
-    ".9mm": "imgArma/box9x19.png",
-    ".380": "imgArma/box380.png",
-    ".45": "imgArma/box45.png",
-    ".44": "imgArma/box44.png",
-    ".357": "imgArma/box357.png",
-    "7.65": "imgArma/box765x54.png",
-    "7.62": "imgArma/box762x39.png",
-    "5.56": "imgArma/box556x45.png",
+    ".9mm": "https://i.imgur.com/TT4W0H1.png",
+    ".380": "https://i.imgur.com/ZGSIMD6.png",
+    ".45": "https://i.imgur.com/bz79IYq.png",
+    ".44": "https://i.imgur.com/QUnxsnv.png",
+    ".357": "https://i.imgur.com/KJ3yitC.png",
+    "7.65": "https://i.imgur.com/s6QVdql.png",
+    "7.62": "https://i.imgur.com/uk5FNT7.png",
+    "5.56": "https://i.imgur.com/JfZ99UF.png",
 
     // munición chica
 
-    ".9mm chica": "imgArma/ammo9x19.png",
-    ".380 chica": "imgArma/ammo380.png",
-    ".45 chica": "imgArma/ammo45.png",
-    ".44 chica": "imgArma/ammo44.png",
-    ".357 chica": "imgArma/ammo357.png",
-    "7.65 chica": "imgArma/ammo765x54.png",
-    "7.62 chica": "imgArma/ammo762x39.png",
-    "5.56 chica": "imgArma/ammo556x45.png"
+    ".9mm chica": "https://i.imgur.com/8kMFf6U.png",
+    ".380 chica": "https://i.imgur.com/Jgrzzt9.png",
+    ".45 chica": "https://i.imgur.com/PqrDLXP.png",
+    ".44 chica": "https://i.imgur.com/h6OoMVA.png",
+    ".357 chica": "https://i.imgur.com/9ubM8bD.png",
+    "7.65 chica": "https://i.imgur.com/cFq4BTd.png",
+    "7.62 chica": "https://i.imgur.com/LLDksxK.png",
+    "5.56 chica": "https://i.imgur.com/cFq4BTd.png",
+
+    // Otros
+    "Machete": "https://i.imgur.com/KzJbN48.png"
 };
 
 
