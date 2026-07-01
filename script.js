@@ -33,6 +33,7 @@ const imagenes = {
     "Desert Eagle": "https://i.imgur.com/DMFmTZh.png",
     "Desert Eagle Dorada": "https://i.imgur.com/YiuNbw9.png",
     "Mauser C96": "https://i.imgur.com/vrxMSgF.png",
+    "Bersa 380 (No hay en BIG) solo ARGRP": "https://i.imgur.com/sw7RtFv.png", // No hay en BIG
 
     // Armas largas
     "AK-47": "https://i.imgur.com/CBfPAfy.png",
@@ -67,7 +68,7 @@ const imagenes = {
 
     // Otros
     "Machete": "https://i.imgur.com/KzJbN48.png",
-    "Bersa 380 (No hay en BIG) solo ARGRP": "https://i.imgur.com/sw7RtFv.png"
+    // La bersa tambien se considera otros pero lo deje junto las pistolas.
 };
 
 
