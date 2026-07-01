@@ -274,7 +274,7 @@ const items = [
 
         {
         categoria: "armas",
-        nombre: "Bersa 380 (No hay en BIG)",
+        nombre: "Bersa 380 (No hay en BIG) solo ARGRP",
         materiales: {
             aluminio: 7,
             cobre: 5,
@@ -471,6 +471,7 @@ const municionPorArma = {
     "Magnum 44": { calibre: ".44", default: 6, chico: 12, grande: 18 },
     "Magnum 357": { calibre: ".357", default: 6, chico: 12, grande: 18 },
     "Desert Eagle": { calibre: ".44", default: 7, chico: 14, grande: 60 },
+    "Bersa 380 (No hay en BIG) solo ARGRP": { calibre: ".380", default: 16, chico: 8, grande: 16 },
     // La Dorada es la misma arma pero con skin asi que usa la misma munición que la Desert Eagle base
     "Desert Eagle Dorada": { calibre: ".44", default: 7, chico: 14, grande: 60 },
     "Mauser C96": { calibre: "7.65", default: 10, chico: 20, grande: 30 },

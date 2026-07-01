@@ -67,7 +67,7 @@ const imagenes = {
 
     // Otros
     "Machete": "https://i.imgur.com/KzJbN48.png",
-    "Bersa 380 (No hay en BIG)": "https://i.imgur.com/sw7RtFv.png"
+    "Bersa 380 (No hay en BIG) solo ARGRP": "https://i.imgur.com/sw7RtFv.png"
 };
 
 
