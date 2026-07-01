@@ -102,7 +102,7 @@ function nombreCategoria(categoria) {
 const preciosDefault = {
     acero: 2500,
     aluminio: 1800,
-    cobre: 5000,
+    cobre: 500,
     polvora: 1800,
     madera: 500,
     oro: 1000,
