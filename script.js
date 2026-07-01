@@ -97,12 +97,12 @@ function nombreCategoria(categoria) {
 // asi con esto tener una base de como se calculan los precios (y que no salga error xd)
 
 const preciosDefault = {
-    acero: 2500,
-    aluminio: 1800,
-    cobre: 500,
-    polvora: 1800,
-    madera: 500,
-    oro: 1000,
+    acero: 25,
+    aluminio: 18,
+    cobre: 50,
+    polvora: 18,
+    madera: 50,
+    oro: 10,
     ventaPorcentaje: 30
 };
 
