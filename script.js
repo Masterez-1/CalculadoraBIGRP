@@ -86,7 +86,7 @@ const nombrePorCategoria = {
     armas: "Armas",
     municion: "Munición",
     municion_chica: "Munición Chica",
-    otros: "Otros"
+    otros: "otros"
 };
 
 function nombreCategoria(categoria) {
