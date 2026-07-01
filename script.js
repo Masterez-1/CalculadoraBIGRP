@@ -22,8 +22,10 @@ let balasCustomActual = 10;
 
 const imagenes = {
 
+  // Las subi a IMGURL por que gasta recursos alpedo y es más rápido
+
     // Pistolas
-    "Beretta 96": "imgArma/beretta96.png",
+    "Beretta 96": "https://i.imgur.com/sbp3c8c.png",
     "Beretta 9": "imgArma/berettam9.png",
     "M1911": "imgArma/m1911.png",
     "Magnum 44": "imgArma/magnum44.png",
