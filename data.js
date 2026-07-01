@@ -262,7 +262,7 @@ const items = [
         materiales: {
             aluminio: 0,
             cobre: 0,
-            acero: 10,
+            acero: 5,
             polvora: 0,
             madera: 5
         },
