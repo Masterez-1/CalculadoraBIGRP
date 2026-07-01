@@ -272,6 +272,21 @@ const items = [
         horas: 100
     },
 
+        {
+        categoria: "armas",
+        nombre: "Bersa 380 (No hay en BIG)",
+        materiales: {
+            aluminio: 7,
+            cobre: 5,
+            acero: 18,
+            polvora: 15,
+        },
+        reputacion: 300,
+        pd: 5,
+        tiempo: "8 min",
+        horas: 500
+    },
+
     // ==========================
     // MUNICION (GRANDE Y CHICAS)
     // ==========================

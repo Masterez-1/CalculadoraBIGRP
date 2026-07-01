@@ -66,7 +66,8 @@ const imagenes = {
     "5.56 chica": "https://i.imgur.com/cFq4BTd.png",
 
     // Otros
-    "Machete": "https://i.imgur.com/KzJbN48.png"
+    "Machete": "https://i.imgur.com/KzJbN48.png",
+    "Bersa 380 (No hay en BIG)": "https://i.imgur.com/sw7RtFv.png"
 };
 
 
@@ -97,12 +98,12 @@ function nombreCategoria(categoria) {
 // asi con esto tener una base de como se calculan los precios (y que no salga error xd)
 
 const preciosDefault = {
-    acero: 25,
-    aluminio: 18,
-    cobre: 50,
-    polvora: 18,
-    madera: 50,
-    oro: 10,
+    acero: 2500,
+    aluminio: 1800,
+    cobre: 5000,
+    polvora: 1800,
+    madera: 500,
+    oro: 1000,
     ventaPorcentaje: 30
 };
 
