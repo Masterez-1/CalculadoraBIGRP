@@ -1,6 +1,6 @@
 # Calculadora BIG Roleplay
 
-Calculadora web de costos de fabricación para armas y munición del servidor **BIG Roleplay** (MTA:SA). Calcula cuánto sale craftear cada arma, cuánto sale su munición según la carga elegida, y a qué precio conviene venderla.
+Calculadora web de costos de fabricación para armas y munición del servidor **BIG Roleplay**. Calcula cuánto sale craftear cada arma, cuánto sale su munición según la carga elegida, y a qué precio conviene venderla, una herramientas bastante útil y para vivirla más.
 
 ## Qué hace
 
@@ -21,12 +21,11 @@ Calculadora web de costos de fabricación para armas y munición del servidor **
 
 ## Lógica de precios (resumen)
 
-El costo de un arma nunca incluye sus balas: es solo la suma de sus materiales. Las balas se suman aparte según la cantidad elegida, usando como referencia el precio de la **bala chica** (o bala normal en el caso del cargador grande). Un crafteo de munición equivale a una carga completa (la cantidad default del arma), así que el precio por bala individual sale de dividir ese costo entre esa cantidad default.
+El costo de un arma nunca incluye sus balas: es solo la suma de sus materiales. Las balas se suman aparte según la cantidad elegida, usando como referencia el precio de la **bala chica** (o bala normal en el caso del cargador grande). Un crafteo de munición equivale a una carga completa (la cantidad default del arma), así que el precio por bala individual sale de dividir ese costo entre esa cantidad default. Está todo el có0digo comentado, asi que es fácil de entender o aportar.
 
 ## Referencias
 
 - [Guía de armas y munición de BIG Roleplay](https://bigroleplay.com/index.php?topic=870.0) — fuente de los calibres, cantidades default/chico/grande y el sistema de abastecimiento.
-- Información aportada por **Malak**, **Daniel Collins** y **Blueskill**.
 - [Discord de BIG Roleplay](https://discord.gg/bigrp)
 
 ## Autor
