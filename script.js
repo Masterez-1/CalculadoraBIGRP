@@ -76,7 +76,8 @@ const iconoPorCategoria = {
     pistolas: "bi-crosshair",
     armas: "bi-crosshair2",
     municion: "bi-circle-fill",
-    municion_chica: "bi-circle"
+    municion_chica: "bi-circle",
+    otros: "bi-circle"
 };
 
 // Nombres por categorías
@@ -84,7 +85,8 @@ const nombrePorCategoria = {
     pistolas: "Pistolas",
     armas: "Armas",
     municion: "Munición",
-    municion_chica: "Munición Chica"
+    municion_chica: "Munición Chica",
+    otros: "Otros"
 };
 
 function nombreCategoria(categoria) {

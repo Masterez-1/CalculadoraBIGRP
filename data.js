@@ -257,7 +257,7 @@ const items = [
     // ==========================
 
     {
-        categoria: "armas",
+        categoria: "otros",
         nombre: "Machete",
         materiales: {
             aluminio: 0,
@@ -273,7 +273,7 @@ const items = [
     },
 
         {
-        categoria: "armas",
+        categoria: "otros",
         nombre: "Bersa 380 (No hay en BIG) solo ARGRP",
         materiales: {
             aluminio: 7,
