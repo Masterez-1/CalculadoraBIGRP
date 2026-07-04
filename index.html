@@ -1,13 +1,245 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina vieja</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Página dada de baja | BIG RP</title>
+<link rel="shortcut icon" href="https://img.icons8.com/?size=100&id=102576&format=png&color=000000" type="image/x-icon">
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600;700&display=swap');
+
+:root {
+    --bg: #08090b;
+    --panel: #121417;
+    --panel-raised: #181a1e;
+    --line: #26282d;
+
+    --ink: #e7e7ea;
+    --muted: #8b8e94;
+    --muted-dim: #5b5e64;
+
+    --gold: #e7b923;
+    --gold-dim: #7a611c;
+    --gold-wash: rgba(231, 185, 35, .1);
+
+    --blood: #b23a2e;
+    --blood-dim: #5c261f;
+    --blood-wash: rgba(178, 58, 46, .12);
+
+    --radius: 3px;
+}
+
+* {
+    box-sizing: border-box;
+    scrollbar-color: var(--line) var(--bg);
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-color: var(--bg);
+    background-image:
+        radial-gradient(circle at 15% -10%, rgba(231, 185, 35, .06), transparent 40%),
+        radial-gradient(circle at 100% 20%, rgba(178, 58, 46, .06), transparent 45%);
+    color: var(--ink);
+    font-family: 'Inter', system-ui, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+/* grano fino encima de todo */
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 999;
+    background-image: repeating-linear-gradient(0deg, rgba(0,0,0,.07) 0px, rgba(0,0,0,.07) 1px, transparent 1px, transparent 3px);
+    opacity: .3;
+    mix-blend-mode: overlay;
+}
+
+.hazard-tape {
+    height: 6px;
+    width: 100%;
+    flex: none;
+    background: linear-gradient(90deg, var(--gold) 0%, var(--gold) 40%, var(--blood) 40%, var(--blood) 55%, var(--gold) 55%, var(--gold) 100%);
+    opacity: .85;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1.25rem;
+}
+
+.card-baja {
+    position: relative;
+    max-width: 560px;
+    width: 100%;
+    background-color: var(--panel);
+    border: 1px solid var(--line);
+    padding: 2.4rem 2.2rem 2.2rem;
+    clip-path: polygon(0 0, calc(100% - 26px) 0, 100% 26px, 100% 100%, 0 100%);
+    text-align: center;
+    box-shadow: 0 20px 60px rgba(0,0,0,.55);
+}
+
+.card-baja::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 26px;
+    height: 26px;
+    background: linear-gradient(135deg, transparent 50%, var(--gold-dim) 50%);
+    opacity: .85;
+    pointer-events: none;
+}
+
+.stamp {
+    display: inline-block;
+    padding: .35rem 1.1rem;
+    border: 2px solid var(--blood);
+    color: var(--blood);
+    background: var(--blood-wash);
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: .16em;
+    font-size: .82rem;
+    text-transform: uppercase;
+    transform: rotate(-4deg);
+    clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 100%, 8px 100%);
+    margin-bottom: 1.4rem;
+}
+
+.icono-baja {
+    font-size: 2.6rem;
+    color: var(--gold-dim);
+    margin-bottom: .6rem;
+    line-height: 1;
+}
+
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    font-size: 2.1rem;
+    margin: 0 0 .6rem;
+    line-height: 1.1;
+}
+
+h1 .rojo {
+    color: var(--blood);
+}
+
+.hero-tag {
+    display: block;
+    font-size: .78rem;
+    color: var(--muted);
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    font-family: 'JetBrains Mono', monospace;
+    margin-bottom: 1.4rem;
+}
+
+p.desc {
+    color: var(--muted);
+    font-size: .95rem;
+    line-height: 1.55;
+    margin: 0 0 1.8rem;
+}
+
+.btn-nuevo {
+    display: inline-flex;
+    align-items: center;
+    gap: .55rem;
+    background-color: var(--gold);
+    border: 1px solid var(--gold);
+    color: #14171a;
+    font-weight: 700;
+    font-size: .95rem;
+    padding: .75rem 1.5rem;
+    border-radius: var(--radius);
+    text-decoration: none;
+    transition: background-color .15s ease, transform .1s ease;
+}
+
+.btn-nuevo:hover {
+    background-color: #cfa41d;
+    border-color: #cfa41d;
+    transform: translateY(-2px);
+}
+
+.link-viejo {
+    display: block;
+    margin-top: 1.3rem;
+    font-size: .78rem;
+    color: var(--muted-dim);
+    font-family: 'JetBrains Mono', monospace;
+    word-break: break-all;
+}
+
+footer {
+    flex: none;
+    text-align: center;
+    padding: 1.2rem 1rem;
+    border-top: 1px solid var(--line);
+    background: linear-gradient(180deg, transparent, rgba(231, 185, 35, .02));
+    color: var(--muted);
+    font-size: .78rem;
+}
+
+footer strong {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: .02em;
+    font-weight: 400;
+    color: var(--gold);
+}
+
+@media (max-width: 480px) {
+    h1 { font-size: 1.6rem; }
+    .card-baja { padding: 2rem 1.4rem 1.8rem; }
+}
+</style>
 </head>
 <body>
-    <span>Página vieja usen el nuevo link</span>
-    <a>https://calcu-ilegal-bigrp.vercel.app/</a>
+
+    <div class="hazard-tape"></div>
+
+    <main>
+        <div class="card-baja">
+            <span class="stamp">Dada de baja</span>
+
+            <div class="icono-baja">⚠</div>
+
+            <h1>Esta página quedó <span class="rojo">deshabilitada</span></h1>
+            <span class="hero-tag">BIG Roleplay · calculadora ilegal</span>
+
+            <p class="desc">
+                Esta versión ya no se actualiza ni se mantiene. La calculadora se mudó
+                a un nuevo link, con mejoras y todo funcionando como corresponde.
+            </p>
+
+            <a class="btn-nuevo" href="https://calcu-ilegal-bigrp.vercel.app/" target="_blank" rel="noopener">
+                Ir a la página nueva →
+            </a>
+
+            <span class="link-viejo">calcu-ilegal-bigrp.vercel.app</span>
+        </div>
+    </main>
+
+    <footer>
+        Proyecto de código abierto para la comunidad de <strong>BIG Roleplay</strong>
+    </footer>
+
 </body>
 </html>
