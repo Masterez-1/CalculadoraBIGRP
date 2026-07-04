@@ -451,8 +451,49 @@ const items = [
         pd:2,
         tiempo:"1.40 min",
         horas:100
-    }
+    },
 
+
+    /// Drogas
+    {
+        categoria: "otros",
+        nombre: "Marihuana",
+        materiales:{gasolina:0,semillas:1},
+        reputacion:0,
+        pd:0,
+        tiempo:"30 min",
+        horas:0
+    },
+
+    {
+        categoria: "otros",
+        nombre: "Hojas de coca",
+        materiales:{gasolina:0,semillas:1},
+        reputacion:0,
+        pd:0,
+        tiempo:"20 min",
+        horas:0
+    },
+ 
+    {
+        categoria: "otros",
+        nombre: "Premezcla",
+        materiales:{gasolina:2,hojas_coca:15},
+        reputacion:0,
+        pd:0,
+        tiempo:"5 min",
+        horas:100
+    },   
+    
+        {
+        categoria: "otros",
+        nombre: "Cocaina",
+        materiales:{premezcla:1},
+        reputacion:0,
+        pd:2,
+        tiempo:"10 min",
+        horas:100
+    },    
 ];
 
 // ==========================
@@ -488,4 +529,14 @@ const municionPorArma = {
     "Degtyarev": { calibre: "7.62", default: 47, chico: 94, grande: 120 },
     "Mauser 1909": { calibre: "7.65", default: 10, chico: 20, grande: 30 },
 
+};
+
+
+const DrogaPrepa = {
+    // drogas
+    "premezcla": { material: "gasolina"},
+    "cocaina": { material: "premezcla"},
+
+    "Marihuana": { material: "semillas_mari"},
+    "Hojas de coca": { material: "Semillas_coca"},
 };

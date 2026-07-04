@@ -69,6 +69,15 @@ const imagenes = {
     // Otros
     "Machete": "https://i.imgur.com/KzJbN48.png",
     // La bersa tambien se considera otros pero lo deje junto las pistolas.
+
+    // Drogas
+    "Cocaina": "https://i.imgur.com/7kU4rje.png",
+    "Marihuana": "https://i.imgur.com/uHUQjZX.png",
+    "Premezcla": "https://i.imgur.com/wCbWFsD.png",
+    "Hojas de coca": "https://i.imgur.com/UqZDNy3.png",
+    "Semillas Marihuana": "https://i.imgur.com/HdLENmD.png",
+    "Semillas de cocaina": "https://i.imgur.com/UqZDNy3.png",
+
 };
 
 
@@ -107,7 +116,12 @@ const preciosDefault = {
     polvora: 1800,
     madera: 500,
     oro: 1000,
-    ventaPorcentaje: 30
+    ventaPorcentaje: 30,
+
+    // Drogas
+    semillas_coca: 100,
+    semillas_mari: 100,
+    bidon_gasolina: 500,
 };
 
 let precios = cargarPreciosGuardados();
